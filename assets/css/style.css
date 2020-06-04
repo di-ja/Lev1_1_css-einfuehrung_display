@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 60%;
+    color: white;
+    background: darkblue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20 0;
+}
+img {
+    display: none;
+}
+button:hover+img {
+    display: block;
+    margin: 0 auto;
+}
